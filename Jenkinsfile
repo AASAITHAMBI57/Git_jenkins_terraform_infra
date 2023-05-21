@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage ("checkout from GIT") {
             steps {
-                git branch: 'master', credentialsId: 'git-pass', url: 'https://github.com/BalarajuGolla/CICD-pipeline'
+                git branch: 'master', credentialsId: 'git-pass', url: 'https://github.com/AASAITHAMBI57/Git_jenkins_terraform_infra.git'
             }
         }
         
